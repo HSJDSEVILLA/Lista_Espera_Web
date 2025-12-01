@@ -1,5 +1,5 @@
 # Lista de Espera — Comparación MySQL + Oracle  
-Visualizador web para pacientes con estado **PROGRAMADO**
+Visualizador web para pacientes **ADMITIDOS POR OGS PERO NO POR SFERE**
 
 ## Descripción
 Este script PHP genera una **lista de espera en tiempo real**, combinando información procedente de dos sistemas:
