@@ -92,7 +92,7 @@ FROM booked_today bt
 LEFT JOIN ticket t ON t.idbooked = bt.id AND t.status = 1
 
 WHERE bt.printedfrom LIKE '172.31.148.%'
-  AND bt.idcenter IN (4,6)
+  AND bt.idcenter IN (4)
   AND bt.printed = 1
   AND bt.status = $estado_ogs   -- ← filtro de estado
 
@@ -316,3 +316,4 @@ $count = count($result_rows);
 
 </body>
 </html>
+
