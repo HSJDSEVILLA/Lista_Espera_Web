@@ -19,7 +19,7 @@ Es una herramienta útil para supervisión asistencial y monitorización de agen
 - Consulta sobre la tabla `booked_today` con unión a `ticket`.
 - Filtrado por:
   - `printedfrom` dentro del rango `172.31.148.%` (kioscos)
-  - Centros `4` y `6`
+  - Centro `4` 
   - Registros impresos (`printed = 1`)
 - Cálculo adicional:
   - Descripción del estado NemoQ  
